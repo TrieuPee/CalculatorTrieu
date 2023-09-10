@@ -1,0 +1,30 @@
+operations = ["Multiplication", "Division", "Addition", "Subtraction"]
+operations = input("Choose the operation you want to use: ")
+print("\033[1mEnter Numbers Only!\033[0m")
+if operations == "Multiplication":
+    print("Type the two numbers you want to multiply")
+    first = input("First:")
+    second = input("Second:")
+    product = int(first)* int(second)
+    print("The product is",product)
+
+if operations == "Division":
+    print("Type the two numbers you want to divide")
+    first = input("First:")
+    second = input("Second:")
+    quotient = int(first) / int(second)
+    print("The quotient is",quotient)
+
+if operations == "Addition":
+    print("Type the two numbers you want to add")
+    first = input("First:")
+    second = input("Second:")
+    sum = int(first) + int(second)
+    print("The sum is",sum)
+
+if operations == "Subtraction":
+    print("Type the two numbers you want to subtract")
+    first = input("First:")
+    second = input("Second:")
+    difference = int(first) - int(second)
+    print("The difference is",difference)
